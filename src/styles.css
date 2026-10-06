@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f6;
+  color: #333333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 1.2rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav button {
+  background-color: transparent;
+  border: 2px solid #e0a96d;
+  color: #e0a96d;
+  padding: 0.6rem 1.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+nav button:hover,
+nav button:focus {
+  background-color: #e0a96d;
+  color: #1a1a1a;
+  transform: translateY(-2px);
+}
+
+#content {
+  max-width: 850px;
+  margin: 2.5rem auto;
+  padding: 2.5rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  min-height: 450px;
+}
+
+#content h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+  border-bottom: 3px solid #e0a96d;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+#content p {
+  font-size: 1.1rem;
+  color: #555555;
+  margin-bottom: 1.5rem;
+}
+
+.menu-container h1 {
+  margin-bottom: 2rem;
+}
+
+.menu-item {
+  margin-bottom: 1.8rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.menu-item h3 {
+  display: inline-block;
+  font-size: 1.3rem;
+  color: #222222;
+}
+
+.menu-item .price {
+  float: right;
+  font-weight: bold;
+  color: #c07a34;
+  font-size: 1.2rem;
+}
+
+.menu-item p {
+  color: #666666;
+  margin-top: 0.4rem;
+  font-size: 1rem;
+}
+
+.about-container h1 {
+  margin-bottom: 1.5rem;
+}
+
+.about-container h3 {
+  font-size: 1.3rem;
+  color: #222222;
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.about-container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.about-container li {
+  padding: 0.4rem 0;
+  color: #555555;
+  border-bottom: 1px dashed #eee;
+}
